@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableViewController.h
 //  tableViewheaderDropDown
 //
 //  Created by ios1 on 15/12/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomTableViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end
-
